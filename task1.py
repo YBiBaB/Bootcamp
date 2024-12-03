@@ -1,4 +1,10 @@
 # In this task, we need to output each element of array [8,3,5,1] as an integer, and we will use Scientific notation to complete this task
+
+# Code logic:
+# 1. Initialize a variable 'result' to store the calculation results
+# 2. Use a for loop with index to traverse the array
+# 3. Calculate the number of digits of the current number through index and list length, and use it as the square of Scientific notation
+# 4. Accumulate each calculated result into the 'result' variable
 nums = [8, 3, 5, 1]
 # Initialize a variant to keep the final result
 result = 0
